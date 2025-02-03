@@ -52,7 +52,7 @@
 
         <div class="d-flex justify-content-center align-items-center gap-2">
             <button type="submit" class="btn btn-outline-success">Añadir Fruta</button>
-            <a href="{{ route('fruteria.index') }}" class="btn btn-outline-secondary">Cancelar</a>
+            <a href="{{ route('fruteria.index') }}" class="btn btn-outline-danger">Cancelar</a>
         </div>
     </form>
 

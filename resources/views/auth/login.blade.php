@@ -27,7 +27,7 @@
                     <input type="password" placeholder="Introduce tu contraseña" class="form-control" name="password" id="password" required/>
                 </div>
             </div>
-            <input type="submit" name="enviar" value="Enviar" class="btn btn-primary btn-block">
+            <input type="submit" name="enviar" value="Entrar" class="btn btn-primary btn-block">
         </form>
 
         <a href="{{ route('fruteria.index') }}">Ver la frutería sin usuario existente</a>
