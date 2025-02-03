@@ -36,10 +36,10 @@
 <br><br>
 
 ### 5️⃣ Elimiación de Fruta
-![imagen](https://github.com/user-attachments/assets/36b40212-14ff-497d-bd64-0137b22e12f7)
+![imagen](https://github.com/user-attachments/assets/c863b944-4efb-4429-bad4-cdc15230491a)
 <br><br>
 
 ### 6️⃣ Creación de Fruta
-![imagen](https://github.com/user-attachments/assets/f26ea574-737c-4ce8-9d6f-84ec73f4acd9)
+![imagen](https://github.com/user-attachments/assets/b8676f02-9aba-44f9-8256-e0f48d0e9ee1)
 [`➡️ Ver código`](https://github.com/13MariaNoguera/Fruteria/blob/main/resources/views/fruteria/create.blade.php "Vista Frutería - Creación")
 <br><br>
