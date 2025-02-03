@@ -11,7 +11,7 @@
 ## Vista General
 
 ### 1️⃣ Login
-![imagen](https://github.com/user-attachments/assets/93638164-cb21-41ab-b70c-979f587305fe)
+![imagen](https://github.com/user-attachments/assets/a6e38e78-df09-4351-a277-911252006c4b)
 [`➡️ Ver código`](https://github.com/13MariaNoguera/Fruteria/blob/main/resources/views/auth/login.blade.php "Vista Login")
 <br><br>
 
