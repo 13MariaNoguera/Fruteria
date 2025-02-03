@@ -24,6 +24,7 @@ class FrutaController extends Controller {
     public function store(Request $request) {
         
         $request->validate([
+            'imagen' => 'required|string|max:255',
             'nombre' => 'required|string|max:255',
             'temporada' => 'required|string|max:255',
             'precio' => 'required|numeric|min:0',
@@ -35,6 +36,7 @@ class FrutaController extends Controller {
         $fruta->temporada = $request->get('temporada');
         $fruta->precio = $request->get('precio');
         $fruta->stock = $request->get('stock');
+        $fruta->imagen = $request->get('imagen');
         $fruta->save();
 
         return redirect()->route('fruteria.index');
@@ -62,20 +64,19 @@ class FrutaController extends Controller {
     public function update(Request $request, string $id) {
         
         $request->validate([
+            'imagen' => 'required|string|max:255',
             'nombre' => 'required|string|max:255',
             'temporada' => 'required|string|max:255',
             'precio' => 'required|numeric|min:0',
             'stock' => 'required|integer|min:0',
-            'imagen' => 'required|string|min:0',
         ]);
 
         $fruta = Fruta::findOrFail($id);
-
+        $fruta->stock = $request->input('imagen');
         $fruta->nombre = $request->input('nombre');
         $fruta->temporada = $request->input('temporada');
         $fruta->precio = $request->input('precio');
         $fruta->stock = $request->input('stock');
-        $fruta->stock = $request->input('imagen');
         $fruta->save();
 
         return redirect()->route('fruteria.index');
